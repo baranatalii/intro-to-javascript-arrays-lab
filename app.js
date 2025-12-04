@@ -52,3 +52,25 @@ let favFood = foods[1]
 
 console.log('Exercise 4 result:', favFood);
 
+//splice(start)
+//splice(start, deleteCount)
+//splice(start, deleteCount, item0)
+//splice(start, deleteCount, item0, item1)
+//splice(start, deleteCount, item0, item1, /* …, */ itemN)
+
+
+/*
+Exercise 5: Insert an element between two others
+
+1) Insert the string 'tofu' between 'pizza' and 'cheeseburger' in the array.
+
+Complete Exercise 5 in the space below:
+*/
+
+// foods.unshift("cheeseburger");
+// foods.unshift("tofu");
+// foods.unshift("pizza");
+
+foods.splice(2, 0, "tofu")
+
+console.log('Exercise 5 result:', foods);
