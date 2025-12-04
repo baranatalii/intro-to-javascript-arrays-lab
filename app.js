@@ -157,3 +157,46 @@ Complete Exercise 10 in the space below:
 
 
 console.log('Exercise 10 result:', hasSoup);
+
+
+
+//for (let i = 0; i < arr.length; i++) {
+ // console.log(arr[i]);
+//}
+//for...of loop
+
+//for (const element of arr) {
+  //console.log(element);
+//}
+//forEach() method
+
+//arr.forEach((element) => {
+ // console.log(element);
+//});
+
+
+
+/*
+Exercise 11: Odd numbers from an array
+
+1) Choose a method to iterate through the `nums` array.
+
+2) Push each odd number to a new array named `odds`.
+
+Hint: Initialize the `odds` variable to an empty array before the iteration.
+
+Complete Exercise 11 in the space below:
+*/
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+let odds = [];
+for (let i = 0; i < nums.length; i++)
+{
+    if (nums [i] % 2 === 0){ odds.push(nums[i]);
+        
+    }
+}
+
+
+console.log('Exercise 11 result:', odds);
